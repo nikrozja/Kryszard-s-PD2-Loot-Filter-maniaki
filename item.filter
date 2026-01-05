@@ -12,8 +12,8 @@ ItemDisplayFilterName[]: Recommended
 ItemDisplayFilterName[]: Recommended - w/o Potions
 ItemDisplayFilterName[]: Strict Filter
 ItemDisplayFilterName[]: Strict Filter - w/o Potions
-ItemDisplayFilterName[]: Max-Strictness Filter
-ItemDisplayFilterName[]: Max-Strictness Filter with potions
+ItemDisplayFilterName[]: Max-Strictness Filter - Potions
+ItemDisplayFilterName[]: Max-Strictness Filter - w/o Potions
 
 //Show info about current Filter Level in description of Horadric Cube
 ItemDisplay[box]:%NAME%{%NAME%%NL%%GRAY%item.filter ver 12.2.2 %BLACK%| %GRAY% updated: 2026-01-02}%CONTINUE%
@@ -25,8 +25,8 @@ ItemDisplay[box FILTLVL=4]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Setting
 ItemDisplay[box FILTLVL=5]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%5 - %TAN%Recommended %WHITE%- %RED%w/o Potions%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=6]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%6 - %ORANGE%Strict Filter%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 ItemDisplay[box FILTLVL=7]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%7 - %ORANGE%Strict Filter %WHITE%- %RED%w/o Potions%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
-ItemDisplay[box FILTLVL=8]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%8 - %RED%Max-Strictness Filter%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
-ItemDisplay[box FILTLVL=9]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%8 - %RED%Max-Strict with potions%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
+ItemDisplay[box FILTLVL=8]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%8 - %RED%Max-Strictness Filter - Potions%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
+ItemDisplay[box FILTLVL=9]: %NAME%{%NAME%%NL%%WHITE%You Can Change it in Settings%NL%8 - %RED%Max-Strictness Filter - w/o Potions%NL%%TAN% Note%WHITE%: Kryszard's PD2 Loot-Filter level:%NL%}
 
 //DEFINE ALIASES
 //Throwing Potions
@@ -1813,7 +1813,7 @@ ItemDisplay[ETH OR (DIN NMAG !RW RES>0) OR (DIN NMAG !RW EDAM>0) OR ((AMASTAFF O
 //Health & Mana & Rejuvenation Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%Full{%WHITE%Full Rejuvenation Potion}%CONTINUE%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%{%PURPLE%r %WHITE%35%, Perf %YELLOW%O%WHITE%, %BLUE%Ring %WHITE%= Light Res %BLUE%Ring%NL%%WHITE%3x %PURPLE%r %WHITE%35% = %PURPLE%R%WHITE% Full%NL%%TAN% Note%WHITE%: Crafting Recipes:%NL%Rejuvenation Potion}%CONTINUE%
-ItemDisplay[rvs FILTLVL>7]: {%NAME%}%CONTINUE%
+ItemDisplay[rvs FILTLVL>8]: {%NAME%}%CONTINUE%
 ItemDisplay[hp5]: %RED%!%WHITE%Hp{%WHITE%Super Healing Potion}%CONTINUE%
 ItemDisplay[mp5]: %BLUE%!%WHITE%Mp{%WHITE%Super Mana Potion}%CONTINUE%
 ItemDisplay[hp1]: %RED%!%WHITE%minor hp{%WHITE%Minor Healing Potion}%CONTINUE%
@@ -1826,7 +1826,7 @@ ItemDisplay[mp3]: %BLUE%!%WHITE%mana{%WHITE%Mana Potion}%CONTINUE%
 ItemDisplay[mp4]: %BLUE%!%WHITE%great mp{%WHITE%Greater Mana Potion}%CONTINUE%
 ItemDisplay[(hp1 OR hp2 OR hp3 OR mp1 OR mp2 OR mp3) ((FILTLVL>0 DIFF>0) OR (FILTLVL=3 OR FILTLVL=5 OR FILTLVL>6)) !SHOP]: {%NAME%}
 ItemDisplay[(hp4 OR mp4) ((FILTLVL>0 DIFF>1) OR (FILTLVL=3 OR FILTLVL=5 OR FILTLVL>6)) !SHOP]: {%NAME%}
-ItemDisplay[(hp5 OR mp5) (FILTLVL=3 OR FILTLVL=5 OR FILTLVL=7 OR FILTLVL=8)) !SHOP]: {%NAME%}
+ItemDisplay[(hp5 OR mp5) (FILTLVL=3 OR FILTLVL=5 OR FILTLVL=7 OR FILTLVL=9)) !SHOP]: {%NAME%}
 
 //Utilites
 ItemDisplay[tsc]: %BLUE%* %GRAY%tp %WHITE%scroll{%RED%Warning%WHITE%: You gonna lose socketed Runes/Gems/Jewels%NL%Socketed Item, %BLUE%* %GRAY%tp %WHITE%scroll, %ORANGE%Hel%NL%%TAN%Note%WHITE%: To remove Runes/Gems/Jewels from Item:%NL%Scroll of Town Portal}%CONTINUE%
