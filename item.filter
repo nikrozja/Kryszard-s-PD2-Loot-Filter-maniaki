@@ -2851,8 +2851,8 @@ ItemDisplay[(CHEST OR SHIELD) RARE !ID]: %NAME%
 ItemDisplay[HELM RARE !ID FILTLVL<6]: %NAME%
 
 //TOP Craft Maul weapons
-ItemDisplay[WEAPON (7ba OR 9ba OR bax OR 7o7 OR 9b7 OR bar OR 7h7 OR 9h9 OR hal) ETH !ID]: %GOLD%TOP MAUL CRAFT BASE %WHITE%%NAME%
-ItemDisplay[WEAPON (7ga OR 9ga OR gax OR 7la OR 9la OR lax OR 7s8 OR 9s8 OR scy OR 7wc OR 9wc OR wsc) ETH !ID]: %GOLD%DECENT MAUL CRAFT BASE %WHITE%%NAME%
+ItemDisplay[WEAPON (7ba OR 9ba OR bax OR 7o7 OR 9b7 OR bar OR 7h7 OR 9h9 OR hal OR 7gm OR 9gm OR gma OR 7gs OR 9gs OR gis) ETH !ID]: %GOLD%TOP MAUL CRAFT BASE %WHITE%%NAME%
+ItemDisplay[WEAPON (7gi OR 9gi OR gix OR 7m7 OR 9m9 OR mau OR 7cm OR 9cm OR clm OR 7bt OR 9bt OR btx OR 7pa OR 9pa OR pax OR 7vo OR 9vo OR vou OR 7ga OR 9ga OR gax OR 7la OR 9la OR lax OR 7s8 OR 9s8 OR scy OR 7wc OR 9wc OR wsc) ETH !ID]: %GOLD%DECENT MAUL CRAFT BASE %WHITE%%NAME%
 
 //Rare ETH weapons
 ItemDisplay[WEAPON !(hax OR 9ha OR 7ha OR axe OR 9ax OR 7ax OR clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp OR mst OR 9mt OR 7mt OR ssd OR 9ss OR 7ss OR scm OR 9sm OR 7sm OR sbr OR 9sb OR 7sb OR flc OR 9fc OR 7fc OR wsd OR 9wd OR 7wd OR dgr OR 9dg OR 7dg OR dir OR 9di OR 7di OR bld OR 9bl OR 7bl OR STAFF) RARE ETH !ID]: %NAME%
