@@ -386,13 +386,13 @@ ItemDisplay[(NMAG OR SUP) AND !RW AND (SOCK=0 OR SOCK=2) AND WAND AND !(wnd OR y
 ItemDisplay[(NMAG OR SUP) AND !RW AND (SOCK=0 OR SOCK=3) AND MACE AND (SK243>1 AND (SK228>1 OR SK226>1 OR SK224>1))]: %GOLD%TOP DUDU BASE %WHITE%%NAME% %GRAY%%MAP%
 
 //TOP Craft Assasin weapons
-ItemDisplay[WEAPON (7xf OR 9xf OR axf) ETH !UNI !ID]: %GOLD%TOP ASSA CRAFT BASE %WHITE%%NAME%
-ItemDisplay[WEAPON (7ar OR 9ar OR ktr OR 7qr OR 9qr OR skr) ETH !UNI !ID]: %GOLD%DECENT ASSA CRAFT BASE %WHITE%%NAME%
-ItemDisplay[WEAPON (7wb OR 9wb OR wrb OR 7lw OR 9lw OR clw) ETH !UNI !ID]: %GOLD%OK ASSA CRAFT BASE %WHITE%%NAME%
+ItemDisplay[WEAPON (7xf OR 9xf OR axf) ETH (RARE OR MAG) !ID]: %GOLD%TOP ASSA CRAFT BASE %WHITE%%NAME%
+ItemDisplay[WEAPON (7ar OR 9ar OR ktr OR 7qr OR 9qr OR skr) ETH (RARE OR MAG) !ID]: %GOLD%DECENT ASSA CRAFT BASE %WHITE%%NAME%
+ItemDisplay[WEAPON (7wb OR 9wb OR wrb OR 7lw OR 9lw OR clw) ETH (RARE OR MAG) !ID]: %GOLD%OK ASSA CRAFT BASE %WHITE%%NAME%
 
 //TOP Craft Maul weapons
-ItemDisplay[WEAPON (7ba OR 9ba OR bax OR 7o7 OR 9b7 OR bar OR 7h7 OR 9h9 OR hal OR 7gm OR 9gm OR gma OR 7gs OR 9gs OR gis) ETH !UNI !ID]: %GOLD%TOP MAUL CRAFT BASE %WHITE%%NAME%
-ItemDisplay[WEAPON (7gi OR 9gi OR gix OR 7m7 OR 9m9 OR mau OR 7cm OR 9cm OR clm OR 7bt OR 9bt OR btx OR 7pa OR 9pa OR pax OR 7vo OR 9vo OR vou OR 7ga OR 9ga OR gax OR 7la OR 9la OR lax OR 7s8 OR 9s8 OR scy OR 7wc OR 9wc OR wsc) ETH !UNI !ID]: %GOLD%DECENT MAUL CRAFT BASE %WHITE%%NAME%
+ItemDisplay[WEAPON (7ba OR 9ba OR bax OR 7o7 OR 9b7 OR bar OR 7h7 OR 9h9 OR hal OR 7gm OR 9gm OR gma OR 7gs OR 9gs OR gis) ETH (RARE OR MAG) !ID]: %GOLD%TOP MAUL CRAFT BASE %WHITE%%NAME%
+ItemDisplay[WEAPON (7gi OR 9gi OR gix OR 7m7 OR 9m9 OR mau OR 7cm OR 9cm OR clm OR 7bt OR 9bt OR btx OR 7pa OR 9pa OR pax OR 7vo OR 9vo OR vou OR 7ga OR 9ga OR gax OR 7la OR 9la OR lax OR 7s8 OR 9s8 OR scy OR 7wc OR 9wc OR wsc) ETH (RARE OR MAG) !ID]: %GOLD%DECENT MAUL CRAFT BASE %WHITE%%NAME%
 
 //SOUNDS EFFECTS
 //Special Items Exclusives
